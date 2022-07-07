@@ -1,0 +1,22 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class subjects extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        
+        'subject_Title',
+        'subject_Description',
+        'subject_Price',
+        'subject_Duration',
+        
+    ];
+}
+
+
